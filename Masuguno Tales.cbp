@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Masuguno Tales" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MasugunoClient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MasugunoClient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/MinGW/lib/libmysql.a" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Actor.cpp" />
+		<Unit filename="src/Actor.h" />
+		<Unit filename="src/Animation.h" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/Button.h" />
+		<Unit filename="src/CharacterInformation.cpp" />
+		<Unit filename="src/CharacterInformation.h" />
+		<Unit filename="src/Collision.cpp" />
+		<Unit filename="src/Collision.h" />
+		<Unit filename="src/Component/AIComponent.cpp" />
+		<Unit filename="src/Component/AIComponent.h" />
+		<Unit filename="src/Component/ColliderComponent.cpp" />
+		<Unit filename="src/Component/ColliderComponent.h" />
+		<Unit filename="src/Component/KeyboardController.cpp" />
+		<Unit filename="src/Component/KeyboardController.h" />
+		<Unit filename="src/Component/NameComponent.cpp" />
+		<Unit filename="src/Component/NameComponent.h" />
+		<Unit filename="src/Component/SpriteComponent.cpp" />
+		<Unit filename="src/Component/SpriteComponent.h" />
+		<Unit filename="src/Component/StatsComponent.cpp" />
+		<Unit filename="src/Component/StatsComponent.h" />
+		<Unit filename="src/Component/TransformComponent.cpp" />
+		<Unit filename="src/Component/TransformComponent.h" />
+		<Unit filename="src/Database/EquipmentDB.cpp" />
+		<Unit filename="src/Database/EquipmentDB.h" />
+		<Unit filename="src/Database/ItemDB.cpp" />
+		<Unit filename="src/Database/ItemDB.h" />
+		<Unit filename="src/Database/MonsterDB.cpp" />
+		<Unit filename="src/Database/MonsterDB.h" />
+		<Unit filename="src/Database/PlayerVariableLog.h" />
+		<Unit filename="src/Database/QuestDB.cpp" />
+		<Unit filename="src/Database/QuestDB.h" />
+		<Unit filename="src/Database/ShopDB.cpp" />
+		<Unit filename="src/Database/ShopDB.h" />
+		<Unit filename="src/Database/SkillDB.cpp" />
+		<Unit filename="src/Database/SkillDB.h" />
+		<Unit filename="src/Dialogue.cpp" />
+		<Unit filename="src/Dialogue.h" />
+		<Unit filename="src/DialogueManager.cpp" />
+		<Unit filename="src/DialogueManager.h" />
+		<Unit filename="src/Entity.cpp" />
+		<Unit filename="src/Entity.h" />
+		<Unit filename="src/Equipment.cpp" />
+		<Unit filename="src/Equipment.h" />
+		<Unit filename="src/Event.cpp" />
+		<Unit filename="src/Event.h" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Game.h" />
+		<Unit filename="src/HUD.cpp" />
+		<Unit filename="src/HUD.h" />
+		<Unit filename="src/Hotbar.cpp" />
+		<Unit filename="src/Hotbar.h" />
+		<Unit filename="src/InputBox.cpp" />
+		<Unit filename="src/InputBox.h" />
+		<Unit filename="src/Inventory.cpp" />
+		<Unit filename="src/Inventory.h" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/Item.h" />
+		<Unit filename="src/Label.cpp" />
+		<Unit filename="src/Label.h" />
+		<Unit filename="src/Login/Login.cpp" />
+		<Unit filename="src/Login/Login.h" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Map.h" />
+		<Unit filename="src/MapManager.cpp" />
+		<Unit filename="src/MapManager.h" />
+		<Unit filename="src/MixerManager.cpp" />
+		<Unit filename="src/MixerManager.h" />
+		<Unit filename="src/Monster.cpp" />
+		<Unit filename="src/Monster.h" />
+		<Unit filename="src/NPC.cpp" />
+		<Unit filename="src/NPC.h" />
+		<Unit filename="src/Projectile.cpp" />
+		<Unit filename="src/Projectile.h" />
+		<Unit filename="src/Quest.cpp" />
+		<Unit filename="src/Quest.h" />
+		<Unit filename="src/QuestLog.cpp" />
+		<Unit filename="src/QuestLog.h" />
+		<Unit filename="src/Ranking.cpp" />
+		<Unit filename="src/Ranking.h" />
+		<Unit filename="src/Register/Register.cpp" />
+		<Unit filename="src/Register/Register.h" />
+		<Unit filename="src/Settings.h" />
+		<Unit filename="src/Shop.cpp" />
+		<Unit filename="src/Shop.h" />
+		<Unit filename="src/TextureManager.cpp" />
+		<Unit filename="src/TextureManager.h" />
+		<Unit filename="src/Tile.cpp" />
+		<Unit filename="src/Tile.h" />
+		<Unit filename="src/Vector2D.cpp" />
+		<Unit filename="src/Vector2D.h" />
+		<Unit filename="src/Wall.cpp" />
+		<Unit filename="src/Wall.h" />
+		<Unit filename="src/Window.cpp" />
+		<Unit filename="src/Window.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

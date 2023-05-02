@@ -21,19 +21,19 @@ Login screen
 <img src="https://i.imgur.com/qsBVtkw.png"> 
 
 Alryne Town
-<img src="https://i.imgur.com/vy0hlbg">
+<img src="https://i.imgur.com/8RH8dPM.png">
 
 Scorched Land
-<img src="https://i.imgur.com/nR3NiIM">
+<img src="https://i.imgur.com/U5cNUAc.png">
 
 Guild Hall
-<img src="https://i.imgur.com/szP79SF">
+<img src="https://i.imgur.com/QcW7p6c.png">
 
-Quest
-<img src="https://i.imgur.com/AFgNtwg">
+Quest 
+<img src="https://i.imgur.com/s3b3BXV.png">
 
 Shopping
-<img src="https://i.imgur.com/3dhmtKG">
+<img src="https://i.imgur.com/fyfFoby.png">
 
 Ranking
-<img src="https://i.imgur.com/LIM3Dr0">
+<img src="https://i.imgur.com/poAklXa.png">

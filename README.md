@@ -14,7 +14,7 @@ The repository also doesn't include any of the non-code assets used by the game.
 *Edit 1: If this repo got 500 stars. I will public the non-code assets.
 
 ### How to play
-Download the lastest release version and you are good to go.
+Download the latest release version and you are good to go.
 
 ### Videos
 Masuguno gameplay : Updating...

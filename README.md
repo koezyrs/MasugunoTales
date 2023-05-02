@@ -16,24 +16,35 @@ The repository also doesn't include any of the non-code assets used by the game.
 ### How to play
 Download the lastest release version and you are good to go.
 
+### Videos
+Masuguno gameplay : Updating...
+
+
 ### Screenshots
 Login screen
+
 <img src="https://i.imgur.com/qsBVtkw.png"> 
 
 Alryne Town
+
 <img src="https://i.imgur.com/8RH8dPM.png">
 
 Scorched Land
+
 <img src="https://i.imgur.com/U5cNUAc.png">
 
 Guild Hall
+
 <img src="https://i.imgur.com/QcW7p6c.png">
 
 Quest 
+
 <img src="https://i.imgur.com/s3b3BXV.png">
 
 Shopping
+
 <img src="https://i.imgur.com/fyfFoby.png">
 
 Ranking
+
 <img src="https://i.imgur.com/poAklXa.png">

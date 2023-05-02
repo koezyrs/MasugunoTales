@@ -36,6 +36,9 @@
 		<Linker>
 			<Add library="C:/MinGW/lib/libmysql.a" />
 		</Linker>
+		<Unit filename="ico.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Actor.cpp" />
 		<Unit filename="src/Actor.h" />

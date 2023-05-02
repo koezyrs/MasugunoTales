@@ -18,25 +18,22 @@ Download the lastest release version and you are good to go.
 
 ### Screenshots
 Login screen
-[Imgur](https://imgur.com/WMuifmF)
+<img src="https://i.imgur.com/WMuifmF">
 
 Alryne Town
-[Alryne Town](https://i.imgur.com/vy0hlbg)
+<img src="https://i.imgur.com/vy0hlbg">
 
 Scorched Land
-[Scorched Land](https://i.imgur.com/nR3NiIM)
+<img src="https://i.imgur.com/nR3NiIM">
 
 Guild Hall
-[Guild Hall](https://i.imgur.com/szP79SF)
+<img src="https://i.imgur.com/szP79SF">
 
 Quest
-
-[Quest](https://i.imgur.com/AFgNtwg)
+<img src="https://i.imgur.com/AFgNtwg">
 
 Shopping
-
-[Shopping](https://i.imgur.com/3dhmtKG)
+<img src="https://i.imgur.com/3dhmtKG">
 
 Ranking
-
-[Ranking](https://i.imgur.com/LIM3Dr0)
+<img src="https://i.imgur.com/LIM3Dr0">

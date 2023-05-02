@@ -18,7 +18,7 @@ Download the lastest release version and you are good to go.
 
 ### Screenshots
 Login screen
-![Login screen]https://i.imgur.com/qsBVtkw.png[/Login screen]
+![Login screen]https://i.imgur.com/qsBVtkw.png
 
 Alryne Town
 <img src="https://i.imgur.com/vy0hlbg">

@@ -50,4 +50,4 @@ Ranking
 
 ### Dependencies
 The project requires SDL2 libraries and SQL library.
-`SDL2, SDL2-image, SDL2-mixer, SDL2-net, SDL2-ttf, libmysql`
+`SDL2, SDL2-image, SDL2-mixer, SDL2-ttf, libmysql`

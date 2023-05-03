@@ -11,6 +11,7 @@ Masuguno was developed by KoeZyrs in 2023. This is my first game btw :D
 
 ### How to play
 Use UP, DOWN, LEFT, RIGHT key to move.
+Use TAB to switch target and CTRL to interact with NPC or attack target. 
 
 In Masuguno, players will navigate a vast world filled with monsters, each with its own unique abilities and weaknesses. To defeat these monsters, players will need to use strategy, skill, and a variety of weapons and armor. In addition to weapons and armor, players will also be able to purchase powerful potions that can help them in their battles.As players progress through the game, they will earn golds and stats point that allow them to customize their character's stats and abilities to suit their playstyle. They can choose to focus on strength, dexterity, intelligence, vitality or agility as they progress through the game.
 

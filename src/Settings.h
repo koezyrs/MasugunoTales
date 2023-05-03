@@ -12,12 +12,10 @@ const char DBPASSWORD[] = "admin"; // CQiXxpa5uh
 const char DATABASE[] = "test"; // sql12613641r
 */
 
-
 const char HOST[] = "sql12.freemysqlhosting.net"; // sql12.freemysqlhosting.net
 const char DBUSERNAME[] = "sql12613641"; // sql12613641
 const char DBPASSWORD[] = "CQiXxpa5uh"; // CQiXxpa5uh
 const char DATABASE[] = "sql12613641"; // sql12613641
-
 
 const int HOSTPORT = 3306;
 const int SCREEN_WIDTH = 1024;

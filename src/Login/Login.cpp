@@ -71,14 +71,16 @@ void Login::Render()
 
 void Login::LoginButon()
 {
-    Game::conn = mysql_init(0);
-    Game::conn = mysql_real_connect(Game::conn, HOST, DBUSERNAME, DBPASSWORD, DATABASE, HOSTPORT, NULL, 0);
-    if(!Game::conn)
-    {
-        setMessage("Can't connect to database!");
-        std::cerr << "Can not connect to database! " << std::endl;
-        return;
-    }
+    setMessage("Logging in, please wait...");
+    do{
+        Game::conn = mysql_real_connect(Game::conn, HOST, DBUSERNAME, DBPASSWORD, DATABASE, HOSTPORT, NULL, 0);
+        if(!Game::conn)
+        {
+            setMessage("Can't connect to database!");
+            std::cerr << "Can not connect to database! " << std::endl;
+            return;
+        }
+    }while(!Game::conn);
 
     MYSQL_ROW row;
     MYSQL_RES* res;
@@ -93,7 +95,6 @@ void Login::LoginButon()
             std::cout << "Id cua ban la: " << row[0] << std::endl;
             std::cout << "Dang nhap thanh cong!" << std::endl;
             std::string account_id(row[0]);
-            setMessage("Login successfully, please wait for loading!");
             LoadGameDatabase(account_id);
         }else
         {

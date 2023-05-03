@@ -78,14 +78,15 @@ void Register::Render()
 
 void Register::RegistButon()
 {
-    Game::conn = mysql_init(0);
-    Game::conn = mysql_real_connect(Game::conn, HOST, DBUSERNAME, DBPASSWORD, DATABASE, HOSTPORT, NULL, 0);
-    if(!Game::conn)
-    {
-        setMessage("Can't connect to database! ");
-        std::cerr << "Can not connect to database! " << std::endl;
-        return;
-    }
+    do{
+        Game::conn = mysql_real_connect(Game::conn, HOST, DBUSERNAME, DBPASSWORD, DATABASE, HOSTPORT, NULL, 0);
+        if(!Game::conn)
+        {
+            setMessage("Can't connect to database!");
+            std::cerr << "Can not connect to database! " << std::endl;
+            return;
+        }
+    }while(!Game::conn);
 
     MYSQL_ROW row;
     MYSQL_RES* res;

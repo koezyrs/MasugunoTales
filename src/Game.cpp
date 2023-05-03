@@ -104,6 +104,7 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height)
         session = CLEAR;
         return;
     }
+    conn = mysql_init(0);
     SDL_SetRenderDrawColor(gRenderer, 255, 255, 255, 255);
     srand(time(0));
 
@@ -412,6 +413,16 @@ void Game::render()
 
 void Game::saveData()
 {
+    SDL_HideWindow(gWindow);
+    do{
+        conn = mysql_real_connect(conn, HOST, DBUSERNAME, DBPASSWORD, DATABASE, HOSTPORT, NULL, 0);
+        if(!Game::conn)
+        {
+            std::cerr << "Can not connect to database! " << std::endl;
+            return;
+        }
+    }while(!conn);
+
     MYSQL_ROW row;
     MYSQL_RES* res;
     int l_actor_id = gPlayer->actor_id;

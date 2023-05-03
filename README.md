@@ -6,10 +6,8 @@ A 2D ORPG free-to-play that was created using C++/SDL2 and SQL.
 ### About Masuguno
 Masuguno was developed by KoeZyrs in 2023. This is my first game btw :D
 
-### How to use
-This was not designed to be an open-source project. The source is being released for educational purposes. I would not suggest using this in a production game.
-
-The repository also doesn't include any of the non-code assets used by the game. As such, you'll need to use your own instead.
+### Download
+[Windows](https://github.com/koezyrs/MasugunoTales/releases)
 
 ### How to play
 Download the latest release version and you are good to go.
@@ -46,3 +44,7 @@ Shopping
 Ranking
 
 <img src="https://i.imgur.com/poAklXa.png">
+
+### Dependencies
+The project requires SDL2 libraries and SQL library.
+`SDL2, SDL2-image, SDL2-mixer, SDL2-net, SDL2-ttf, libmysql`

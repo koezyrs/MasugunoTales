@@ -9,6 +9,8 @@ Masuguno was developed by KoeZyrs in 2023. This is my first game btw :D
 ### Download
 [Windows](https://github.com/koezyrs/MasugunoTales/releases)
 
+*Choose the latest release version and download the `MasugunoTales.zip` then extract and play!
+
 ### How to play
 Use UP, DOWN, LEFT, RIGHT key to move.
 

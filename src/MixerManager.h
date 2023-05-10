@@ -15,7 +15,9 @@ public:
 
     static void PlayMusic(std::string musicName, int volume = 5);
     static void PlaySoundEffect(std::string soundName, int volume = 5);
+    static void HaltMusic();
     static void CleanMixer();
+
 private:
     static std::map<std::string,Mix_Music*> musics;
     static std::map<std::string,Mix_Chunk*> chunks;

@@ -413,6 +413,7 @@ void Game::render()
 
 void Game::saveData()
 {
+    MixerManager::HaltMusic();
     SDL_HideWindow(gWindow);
     do{
         conn = mysql_real_connect(conn, HOST, DBUSERNAME, DBPASSWORD, DATABASE, HOSTPORT, NULL, 0);

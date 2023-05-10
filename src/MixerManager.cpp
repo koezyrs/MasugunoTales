@@ -67,3 +67,8 @@ void MixerManager::CleanMixer()
         se.second = NULL;
     }
 }
+
+void MixerManager::HaltMusic()
+{
+    Mix_HaltMusic();
+}

@@ -19,9 +19,10 @@ Use TAB to switch target and CTRL to interact with NPC or attack target.
 In Masuguno, players will navigate a vast world filled with monsters, each with its own unique abilities and weaknesses. To defeat these monsters, players will need to use strategy, skill, and a variety of weapons and armor. In addition to weapons and armor, players will also be able to purchase powerful potions that can help them in their battles.As players progress through the game, they will earn golds and stats point that allow them to customize their character's stats and abilities to suit their playstyle. They can choose to focus on strength, dexterity, intelligence, vitality or agility as they progress through the game.
 
 ### Videos
-Masuguno gameplay :
+Masuguno gameplay : https://www.youtube.com/watch?v=YnmyAZlm0Pk
 
-[<img src= "https://i.ytimg.com/vi/YnmyAZlm0Pk/sddefault.jpg">](https://youtu.be/YnmyAZlm0Pk)
+[![GAMEPLAY](http://img.youtube.com/vi/YnmyAZlm0Pk/0.jpg)](http://www.youtube.com/watch?v=YnmyAZlm0Pk "Masuguno Tales Gameplay - A 2D Pixel Art Online RPG")
+
 
 
 ### Screenshots

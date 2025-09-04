@@ -4,7 +4,7 @@
 A 2D ORPG free-to-play that was created using C++/SDL2 and SQL.
 
 ### About Masuguno
-Masuguno was developed by KoeZyrs in 2023. This is my first game btw :D
+Masuguno was developed by Jeremy Nguyen in 2023. This is my first game btw :D
 
 ### Download
 [Windows](https://github.com/koezyrs/MasugunoTales/releases)
